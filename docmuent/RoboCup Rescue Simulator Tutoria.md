@@ -3,19 +3,30 @@
 
 #### 1 Introduction / 介绍
 A disater may be defined as a crisis situation causing widespreas human, material, economical and enverionment damages that surpasses the system's capacity to recover.
-灾难是一种在人员、财物、经济、环境等方面造成了超过系统恢复能力的损害的危机状况。
+
 There are two main ways of treating a disater:
+
+灾难是一种在人员、财物、经济、环境等方面造成了超过系统恢复能力的损害的危机状况。
 主要有两种应对方法：
+
 1. Preventing it from happening, which can be through identifying its causes and preventing them tasking place.
+
 防患于未然，通过识别灾难发生的原因预先阻止其发生。
+
 2. Managing its impacts once they happen through the application of previously established governmental policies and strategies.
+
 一旦灾难发生，通过执行先前建立的政策和战略控制灾难造成额度影响。
 
 The former option is unually more desirable, since it is very effective and very little disrupting. However, this is not always possible, since some events are too intense to be avoided even if forecasted with great antecedence, and other are unpredictable. Thus, the management option becomes necessary for the mitigation of the disaster's impacts.
+
 前者更可取，因为它非常有效并且不会被轻易干扰。然而，这并非总是可行的，因为有些事件过于强大，即使有充分的预测也不能避免，而有些事是不可预测的。因此，选择控制灾难以减轻影响是有必要的。
+
 After the 1995 Kobe earthquake events, Japanese researchers came up with the idea of developing a simulator that reproduces conditions similar to a urban postearthquake in order to test mitigation strategies for this kind of disaster. They also organized a competition, the RoboCup Rescue Agent Simulation League, in which people from all over the world would be able to demonstrate their advancements in the coordination of rescuing agents teams running in this simulator and to help in the development of policies and strategies to mitigate the impact of such disasters.
+
 在1995年神户地震后，日本研究人员产生了开发模拟器的想法，这种模拟器可以重现类似城市地震后的情况，从而测试应对这类灾难的策略。他们还组织了"the RoboCup Rescue Agent Simulation League"竞赛，世界各地的人们可以在这个模拟器中展示他们在协调救援队伍方面的进展，并帮助制定政策和战略以减轻灾害的影响。
+
 The objective of this document is facilitate the first contact with the RoboCup Rescue Agent simulator and streamline the learning curve for new comers. This document is based on the 2011 version (rescue-1.0a-2011). Spite of being targeted for people interested in participating in RoboCup Rescue Agent competitions, hopefully it may also help people interested in using it for disaster management research purposes.
+
 这份文档旨在帮助第一次接“触救援组”模拟器的人学习使用它。文档是基于2011年的版本(rescue-1.0a-2011)。尽管是给有兴趣参加机器人世界杯的人们使用的，我们希望它能帮助有意使用它进行灾难管理研究的人们。
 
 #### 2 Installing and Running / 安装并运行
