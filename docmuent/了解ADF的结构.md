@@ -11,7 +11,7 @@
 这是代理开发人员开发的类。描述如何使用红框的组件来决定行动，（根据规则可能无法改变）
 
 ## 包图
-![](2BaoTu.png)
+![](./images/2BaoTu.png)
 - adf.sample
 样本代理
 - adf.component
@@ -27,7 +27,7 @@ ADF提供数据IO的类
 ### Tactics
 要使用ADF对代理进行编程，请为每种类型的代理编写一个名为“Tactics”的类。基于这个类，我们将编写代理的行为。在Tactics类有五个事件处理程序。调用这些处理程序的流程如下图所示。
 
-![](3tactisc_flow.png)
+![](./images/3tactisc_flow.png)
 - initialize
 基本的初始化
 - precompute
@@ -58,7 +58,7 @@ ADF提供数据IO的类
 ### Modules
 在ADF中，算法等是模块化的。这是为了增加代码的可重用性。
 目前存在下图所示的模块。
-![](4abstract-module.png)
+![](./images/4abstract-module.png)
 - TargetDetector
 资源分配，例如救援谁，在哪里灭火，在哪里清障
 - PathPlanning
@@ -70,7 +70,7 @@ ADF提供数据IO的类
  集群，如消防员分组
 
 调用这些模块的方法以确定代理的行为，如下图所示。
-![](5tactics_module.png)
+![](./images/5tactics_module.png)
 
 ## ADF提供的类
 除Action之外的类作为实例提供。
@@ -123,7 +123,7 @@ List<Integer> testList = developData.getIntegerList("testList", testList);
 
 ### ModuleManager
 这个类管理Module和ExtAction的实例。
-![](6module_manager.png)
+![](./images/6module_manager.png)
 例如：
 ```java
 this.pathPlanning = moduleManager.getModule("TacticsFire.PathPlanning" , "adf.sample.module.algorithm.SamplePathPlanning");
